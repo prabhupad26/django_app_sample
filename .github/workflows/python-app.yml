@@ -37,3 +37,6 @@ jobs:
     -  name: Perform project check
        run: |
          python manage.py check
+    -  name: Run Unit tests
+       run: |
+         python manage.py test polls
